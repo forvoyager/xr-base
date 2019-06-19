@@ -1,0 +1,19 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "name": "ms.base.web",
+      "type": "com.xr.base.web.BaseWebAutoConfiguration",
+      "sourceType": "com.xr.base.web.BaseWebAutoConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.xr.base.web.BaseWebAutoConfiguration",
+      "defaultValue": true,
+      "name": "ms.base.web.enabled",
+      "description": "Base Web 模块是否加载",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}

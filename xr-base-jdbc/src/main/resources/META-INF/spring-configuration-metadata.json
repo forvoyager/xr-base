@@ -1,0 +1,19 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "name": "ms.base.data.source",
+      "type": "com.xr.base.jdbc.datasource.MsDataSourceAutoConfiguration",
+      "sourceType": "com.xr.base.jdbc.datasource.MsDataSourceAutoConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.xr.base.jdbc.datasource.MsDataSourceAutoConfiguration",
+      "defaultValue": false,
+      "name": "ms.base.data.source.enabled",
+      "description": "数据源是否加载",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}

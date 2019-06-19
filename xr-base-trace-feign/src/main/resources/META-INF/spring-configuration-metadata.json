@@ -1,0 +1,26 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.xr.base.trace.feign.TraceProperties",
+      "name": "ms.base.trace.feign",
+      "type": "com.xr.base.trace.feign.TraceProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.xr.base.trace.feign.TraceProperties",
+      "name": "ms.base.trace.feign.enabled",
+      "defaultValue": true,
+      "description": "链路追踪是否启用",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.xr.base.trace.feign.TraceProperties",
+      "name": "ms.base.trace.feign.trace-key",
+      "defaultValue": "ms_trace_id",
+      "description": "链路追踪关键词",
+      "type": "java.lang.String"
+    }
+  ]
+}
